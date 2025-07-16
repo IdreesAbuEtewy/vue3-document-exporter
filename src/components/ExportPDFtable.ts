@@ -259,7 +259,6 @@ const ExportPDFTable = async (
       // Match the actual autoTable margins: left 5 + right 5 = 10 total
       const tableMargins = 10 // left: 5, right: 5
       const availableWidth = pageWidth - tableMargins
-      const columnCount = content.columns.length
 
       // Calculate content-based widths first
       const columnWidths: { [key: string]: number } = {}

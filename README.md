@@ -44,31 +44,21 @@ yarn add vue3-document-exporter
 - **Lightweight**: Small bundle size with no unnecessary dependencies
 - **TypeScript Support**: Full TypeScript support for better development experience
 - **Flexible**: Works with any HTML content, tables, or JSON data
-- 
+  
 
 ## Features
 
-📄 Export to Word
-Convert HTML content into a Word document (.docx) with preserved formatting.
-📋 Export to PDF
-Save your HTML content as a PDF file with customizable styling and layout options.
-📊 Export Tables to PDF
-Generate professional PDFs from data with advanced table formatting, summaries, and custom styling.
-📈 Export to CSV
-Export HTML table data to a CSV file for data analysis and processing.
-📊 Export to Excel
-Convert HTML tables or JSON data into Excel files (.xls) with formatting support.
-🎨 Customization Options
-
-Custom fonts and colors
-Logo integration
-Multiple themes
-Internationalization support
-Custom headers and footers
+*   **Export to Word**: Convert HTML content into a Word document (`.docx`).
+*   **Export to PDF**: Save your HTML content as a PDF file.
+*   **Export Tables to PDF**: Generate PDFs from data with table formatting.
+*   **Export to CSV**: Export HTML table data to a CSV file.
+*   **Export to Excel**: Convert HTML tables or JSON data into an Excel file (`.xls`).
+*   **Lightweight and Simple**: Easy to integrate and use with minimal configuration.
+*   **Vue 3 Ready**: Built from the ground up for Vue 3.
 
 ## Usage
 
-For detailed usage and examples, please refer to our documentation. You can find it inside the `/docs` directory or check the [live documentation](https://idrees-etewy.github.io/vue3-document-exporter/).
+For detailed usage and examples, please refer to our documentation. You can find it inside the `/docs` directory or check the [live documentation](https://vue3-document-exporter.vercel.app/).
 
 ## Issues
 
