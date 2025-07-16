@@ -28,8 +28,8 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/KellsWorks/vue-doc-exporter' },
-      { icon: 'x', link: 'https://twitter.com/kellskamuzu'}
+      { icon: 'github', link: 'https://github.com/IdreesAbuEtewy/vue3-document-exporter' },
+     
     ]
   }
 })

@@ -22,7 +22,7 @@ To export content as an Excel file in Vue.js, follow these steps:
 
     ```javascript
     <script lang="ts">
-    import { ExportToExcel } from 'vue-doc-exporter';
+    import { ExportToExcel } from '../../../src/index';
 
     export default {
         components: {
@@ -74,7 +74,7 @@ Exports JSON data in various formats (XLS, CSV, HTML) with support for multiple 
 </template>
 
 <script setup lang="ts">
-import { DataExport } from 'vue-doc-exporter' // Path to the component
+import { ExportJsonExcel as DataExport } from '../../../src/index' // Path to the component
 import { ref } from 'vue';
 
 const myData = ref([...]); // Your data here

@@ -22,7 +22,7 @@ This setup facilitates seamless exportation of the defined content as a CSV file
 
     ```javascript
     <script lang="ts">
-    import { ExportToCsv } from 'vue-doc-exporter';
+    import { ExportToCsv } from '../../../src/index';
 
     export default {
         components: {

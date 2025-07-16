@@ -22,7 +22,7 @@ To export an HTML document to Word, follow these steps:
 
     ```javascript
     <script lang="ts">
-    import { ExportToWord } from 'vue-doc-exporter';
+    import { ExportToWord } from '../../../src/index';
 
     export default {
         components: {

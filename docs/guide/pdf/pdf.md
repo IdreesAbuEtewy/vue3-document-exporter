@@ -62,7 +62,7 @@ To utilize the `ExportToPdf` component:
 
 import { defineComponent } from  'vue';
 
-import { ExportToPdf } from  'vue-doc-exporter';
+import { ExportToPdf } from  '../../../src/index';
 
 
 

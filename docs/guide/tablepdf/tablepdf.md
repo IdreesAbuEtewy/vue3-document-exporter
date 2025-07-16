@@ -8,10 +8,7 @@ next:
   link: /guide/word/word
 ---
 
-<script setup>
-import demo from './tablepdf/demo.vue'
-import { NCard } from 'naive-ui'
-</script>
+
 
 
 ## Usage
@@ -21,7 +18,7 @@ Here's how you can use the `ExportPDFTable` function in Vue 3
 ### Importing
 
 ```typescript
-import { ExportPDFTable } from "vue-doc-exporter";
+import { ExportPDFTable } from "vue3-document-exporter";
 ```
 
 ### Function Definition
@@ -87,26 +84,4 @@ const attributes = {
 ExportPDFTable("employee-list", content, attributes);
 ```
 
-## Advanced Example with Naive UI n-data-table
-
-<script setup>
-import demo from './demo.vue'
-import { NCard } from 'naive-ui'
-
-</script>
-
-<ClientOnly>
-    <NCard title="PDF Export Example">
-        <demo />
-        
-        <details>
-        <summary>View Code</summary>
-        
-  <<< @/guide/tablepdf/demo.vue
-        
-        </details>
-    </NCard>
-</ClientOnly>
-
-```html
 
