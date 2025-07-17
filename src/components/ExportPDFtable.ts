@@ -129,7 +129,7 @@ interface Attribute {
 
 const ExportPDFTable = async (
   filename: string,
-  content: Content | Content[], // Accept both single content and array
+  content: Content | Content[], 
   attributes?: Attribute
 ): Promise<void> => {
   // Normalize to array
@@ -257,7 +257,7 @@ const ExportPDFTable = async (
     const calculateColumnWidths = () => {
       const pageWidth = pdfDocument.internal.pageSize.width
       // Match the actual autoTable margins: left 5 + right 5 = 10 total
-      const tableMargins = 10 // left: 5, right: 5
+      const tableMargins = 10 
       const availableWidth = pageWidth - tableMargins
 
       // Calculate content-based widths first
@@ -356,13 +356,13 @@ const ExportPDFTable = async (
         left: 5,
         right: 5,
       },
-      tableWidth: 'wrap', // Force table to use our exact column widths
+      tableWidth: 'wrap', 
       columnStyles: content.columns.reduce((styles: any, column, index) => {
         styles[index] = {
           cellWidth: columnWidths[column],
           overflow: 'linebreak',
-          cellPadding: { top: 2, right: 2, bottom: 2, left: 2 }, // Reduced padding
-          fontSize: attributes?.fontSize || 8, // Reduced font size
+          cellPadding: { top: 2, right: 2, bottom: 2, left: 2 },
+          fontSize: attributes?.fontSize || 8, 
           textAlign: 'left',
           lineColor: [217, 217, 217],
           lineWidth: 0.1,
@@ -373,21 +373,21 @@ const ExportPDFTable = async (
         fillColor: [248, 249, 250],
         textColor: [52, 58, 64],
         fontStyle: 'bold',
-        fontSize: (attributes?.fontSize || 8) + 1, // Reduced font size
+        fontSize: (attributes?.fontSize || 8) + 1, 
         textAlign: 'center',
-        cellPadding: { top: 3, right: 2, bottom: 3, left: 2 }, // Reduced padding
+        cellPadding: { top: 3, right: 2, bottom: 3, left: 2 }, 
         overflow: 'linebreak',
         lineColor: [217, 217, 217],
         lineWidth: 0.2,
       },
       bodyStyles: {
-        fontSize: attributes?.fontSize || 8, // Reduced font size
+        fontSize: attributes?.fontSize || 8, 
         textColor: [52, 58, 64],
-        cellPadding: { top: 2, right: 2, bottom: 2, left: 2 }, // Reduced padding
+        cellPadding: { top: 2, right: 2, bottom: 2, left: 2 }, 
         overflow: 'linebreak',
         lineColor: [233, 236, 239],
         lineWidth: 0.1,
-        minCellHeight: 6, // Reduced min height
+        minCellHeight: 6,
       },
       alternateRowStyles: {
         fillColor: [248, 249, 250],

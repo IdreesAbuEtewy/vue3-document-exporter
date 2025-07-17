@@ -18,9 +18,9 @@
 
  <p>
    <a href="https://idrees-etewy.github.io/vue3-document-exporter/">📚 Documentation</a> |
-   <a href="#quick-start">🚀 Quick Start</a> |
+   <a href="#Installation">🚀 Quick Start</a> |
    <a href="#features">✨ Features</a> |
-   <a href="#examples">💡 Examples</a>
+   <a href="https://www.npmjs.com/package/vue3-document-exporter">💡 package on npm</a>
  </p>
 
 </div>
@@ -31,6 +31,8 @@ Get started by installing `vue3-document-exporter` in your Vue.js project using 
 
 ```bash
 npm install vue3-document-exporter
+#or
+pnpm install vue3-document-exporter
 # or
 yarn add vue3-document-exporter
 ```

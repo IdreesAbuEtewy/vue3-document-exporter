@@ -7,7 +7,7 @@ import {
   shallowRef,
   watch
 } from "./chunk-OFHQB7EL.js";
-import "./chunk-BUSYA2B4.js";
+import "./chunk-EWTE5DHJ.js";
 
 // node_modules/.pnpm/vitepress@1.6.3_@algolia+client-search@5.25.0_@types+node@20.17.47_async-validator@4.2.5_post_dkobbqlkr6goff5eutvuhqgvy4/node_modules/vitepress/dist/client/theme-default/index.js
 import "C:/work/website/git-project/vue3-document-exporter/node_modules/.pnpm/vitepress@1.6.3_@algolia+client-search@5.25.0_@types+node@20.17.47_async-validator@4.2.5_post_dkobbqlkr6goff5eutvuhqgvy4/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
